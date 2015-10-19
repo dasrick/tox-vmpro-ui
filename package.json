@@ -13,9 +13,16 @@
     "type": "git",
     "url": "git+https://github.com/dasrick/tox-vmpro-ui.git"
   },
+  "engines": {
+    "node": "4.2.x",
+    "npm": "3.3.x"
+  },
   "scripts": {
     "start": "node serve.js",
     "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.13.1"
   },
   "devDependencies": {
     "angular": "^1.4.7",
