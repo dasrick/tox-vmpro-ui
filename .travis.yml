@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '0.10'
+- '0.12'
+- '4.0'
+before_install: npm install -g npm@'>=2.13.5'
+#deploy:
+#  provider: heroku
+#  api_key: "4dacafd2-7064-4c78-b2fb-122b9a122a5a"
+#  app: tox-vmpro
+#  on:
+#    tags: true
+#    node: '4.0'
+#notifications:
+#  slack: dasrick:m0Fv79R4R7EKzZMzKz65p43f
