@@ -11,5 +11,5 @@ before_install: npm install -g npm@'>=2.13.5'
 #  on:
 #    tags: true
 #    node: '4.0'
-#notifications:
-#  slack: dasrick:m0Fv79R4R7EKzZMzKz65p43f
+notifications:
+  slack: dasrick:aObaQ1CfUgC4729RLc17c9Ladd sl
