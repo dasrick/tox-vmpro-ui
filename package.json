@@ -31,7 +31,7 @@
     "preinstall": "npm cache clean",
     "postinstall": "npm run build",
     "prebuild": "mkdir -p web/js/",
-    "build": "npm run build:scripts",
+    "build": "echo hello you s",
     "start": "node serve.js",
     "test": "echo \"Error: no test specified\" && exit 0"
   }
