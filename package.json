@@ -28,6 +28,7 @@
     "webpack": "^1.12.2"
   },
   "scripts": {
+    "preinstall": "npm cache clean",
     "postinstall": "npm run build",
     "prebuild": "mkdir -p web/js/",
     "build": "npm run build:scripts",
